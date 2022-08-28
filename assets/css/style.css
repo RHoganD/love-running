@@ -110,3 +110,25 @@ animation-fill-mode: forwards;
     
     position: absolute;
 }
+
+/* Club ethos   */
+
+#club-ethos{
+   height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;                         
+    float: right;
+    }
+    #center-about {
+        width: 33%;                         
+        margin: 0 auto;
+        }
