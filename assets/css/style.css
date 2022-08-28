@@ -22,6 +22,7 @@ h1, h2 {
 #logo {
 float: left;
 font-size: 280%;
+margin-left: 30px;
 }
 
 /* navigation links */
@@ -108,4 +109,4 @@ animation-fill-mode: forwards;
     right: 150px;
     
     position: absolute;
-    {}
+}
