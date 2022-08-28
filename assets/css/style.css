@@ -74,7 +74,6 @@ animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
 
-
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
