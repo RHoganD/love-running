@@ -273,7 +273,7 @@ animation-fill-mode: forwards;
                 float: left;
                 padding: 0;
                  }
-                 
+
                  #times > div {
                     width: 100%;
                     clear: both;
@@ -323,4 +323,16 @@ animation-fill-mode: forwards;
                 padding: 0 20px;
                 }
 
+                #photos {
+                column-count: 3;
+
+                }
+            }
+            /* For small screen sizes below 800px width */
+
+            @media screen and (max-width: 800px) {
+                #photos {
+               column-count: 2;
+
+                }
             }
