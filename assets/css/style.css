@@ -245,6 +245,68 @@ animation-fill-mode: forwards;
              #photos > img {
              width: 100%;
              }
+            /* Form */
+
+            .form-section {
+            clear: left;
+            background: url('../images/formbg.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 900px;
+            overflow: hidden;
+             }
+
+            .signup-form {
+                margin:150px 10% 0 0; 
+                color: #fff;
+                background-color: rgba(60, 60, 60, 0.6);
+                width: 400px;
+                position: absolute;
+                left: 10%;
+                padding: 30px;
+              }
+                
+             /* Styling the form header*/
+                
+              .signup-form > h2 {
+               color: #fafafa; 
+               margin-bottom: 20px;
+             }
+             
+             /*Styling the text/email input fields*/
+             
+             .text-input {
+                background-color: transparent; 
+                color: #fafafa;
+                width: 100%;
+                height: 25px;
+                margin: 5px 0 0 20px;
+                border: 1px solid #fafafa;
+                border-radius: 2px;
+              }
+             
+             /* Styling the input hover event */
+             
+           .text-input :hover{
+           border-color: #f16c6b; 
+           }
+           
+           .join-button {
+    
+            margin: 20px;
+            padding: 15px 32px 15px 32px;
+            text-align: center;
+            font-size: 100%;
+            background-color: #f16c6b;
+            color: #fafafa;
+            display: block;
+        }
+        .join-button :hover {
+            background-color: #fafafa;  
+            color: #f16c6b;
+             }
+
 
              /* Media queries */
 
