@@ -81,6 +81,7 @@ animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
 
+
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
@@ -277,7 +278,7 @@ animation-fill-mode: forwards;
              /*Styling the text/email input fields*/
              
              .text-input {
-                background-color: transparent; 
+                background: transparent;
                 color: #fafafa;
                 width: 100%;
                 height: 25px;
